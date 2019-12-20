@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MEMORY GAME</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Fjalla+One|Gravitas+One|Raleway:400,700,600,800' rel='stylesheet' type='text/css'>
+		<link href="assets/wisz.css" media="screen" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<hgroup>
+				<h1 class="heading-header accent-text">Memory Game</h1>
+			</hgroup>
+		</header>
+		<main class="home" role="main">
+			<section class="section">
+				<strong style="font-size: 1.5em; display: block;">Number of clicks: <span id="clicks-count">0</span></strong><br/>
+				<table cellpadding="0" id="board">
+				  <tr>
+				    <td class="card" id="card-0-0"></td>
+				    <td class="card" id="card-0-1"></td>
+				    <td class="card" id="card-0-2"></td>
+				    <td class="card" id="card-0-3"></td>
+				    <td class="card" id="card-0-4"></td>
+				    <td class="card" id="card-0-5"></td>
+				  </tr>
+				  <tr>
+				    <td class="card" id="card-1-0"></td>
+				    <td class="card" id="card-1-1"></td>
+				    <td class="card" id="card-1-2"></td>
+				    <td class="card" id="card-1-3"></td>
+				    <td class="card" id="card-1-4"></td>
+				    <td class="card" id="card-1-5"></td>
+				  </tr>
+				  <tr>
+				    <td class="card" id="card-2-0"></td>
+				    <td class="card" id="card-2-1"></td>
+				    <td class="card" id="card-2-2"></td>
+				    <td class="card" id="card-2-3"></td>
+				    <td class="card" id="card-2-4"></td>
+				    <td class="card" id="card-2-5"></td>
+				  </tr>
+				  <tr>
+				    <td class="card" id="card-3-0"></td>
+				    <td class="card" id="card-3-1"></td>
+				    <td class="card" id="card-3-2"></td>
+				    <td class="card" id="card-3-3"></td>
+				    <td class="card" id="card-3-4"></td>
+				    <td class="card" id="card-3-5"></td>
+				  </tr>
+				  <tr>
+				    <td class="card" id="card-4-0"></td>
+				    <td class="card" id="card-4-1"></td>
+				    <td class="card" id="card-4-2"></td>
+				    <td class="card" id="card-4-3"></td>
+				    <td class="card" id="card-4-4"></td>
+				    <td class="card" id="card-4-5"></td>
+				  </tr>
+				</table>
+				<br>
+				<a id="reset-button" style="display:inline-block; background-color:#80d8c2; font-size:1.5em; padding:5px 20px; color:#fff; cursor: pointer; text-decoration: none;">RESET</a>
+				<br/>
+				Photos used without permission from <a href="https://www.nytimes.com/interactive/2019/10/02/upshot/these-526-voters-represent-america.html">New York Times</a>.
+			</section>
+		</main>
+		<script src="assets/memory-game.js"></script>
+	</body>
+</html>

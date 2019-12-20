@@ -1,0 +1,98 @@
+html {
+	height: 100%;
+}
+body {
+	background: #efefef url(stripe.png) 0 0 repeat fixed; 
+	color: #000; 
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	margin: 0; 
+	height: 100%;
+	padding: 0; 
+	text-align: center;	
+}
+a,a:visited {
+	color: #ff7055; 
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.accent-text, .accent-text:visited, .accent-text:hover {
+	color: #fff;
+	text-decoration: none; 
+	text-shadow: 1px 1px 1px #999; 
+	text-transform: uppercase; 
+}
+header {
+	background-color: #80d8c2;
+	border-bottom: 1px solid #fff;
+	display: block; 
+	padding: 1.25em 0 1em 0; 
+	top: 0; 
+	width: 100%; 
+	z-index: 1000;
+}
+main {
+	background-color: #fff;
+	display: block;
+	font-size: .875rem; 
+	margin: 12px auto 0;
+	max-width: 956px;
+	min-height: 100%;
+	padding: 1.5em; 
+	text-align: left;
+	top: 7em;
+	z-index: 999;
+}
+main.home {
+	font-size: 1rem;
+	
+}
+.section {
+	clear: both;
+	margin: 12px auto;
+	min-height: 8.44rem;
+	position: relative;
+	text-align: center;
+}
+.heading-header {
+	letter-spacing: .25em; 
+	line-height: 1.75em;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1.75rem;
+	font-weight: normal;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+/* START MEMORY GAME CSS */
+.card {
+  width: 156px;
+  height: 208px;
+}
+#board {
+  border: 1px solid #000;
+}
+.card.matcher-1,.card.matcher-2,.card.matcher-3,.card.matcher-4,.card.matcher-5,.card.matcher-6,.card.matcher-7,.card.matcher-8,.card.matcher-9,.card.matcher-10,.card.matcher-11,.card.matcher-12,.card.matcher-13,.card.matcher-14,.card.matcher-15 {
+  background: navy url(card-sprite.jpg) 0 0 no-repeat;
+ }
+.card.matcher-1.on,.card.matcher-1.done { background-position: 0 -208px; }
+.card.matcher-2.on,.card.matcher-2.done { background-position: 0 -416px; }
+.card.matcher-3.on,.card.matcher-3.done { background-position: 0 -636px; }
+.card.matcher-4.on,.card.matcher-4.done { background-position: 0 -854px; }
+.card.matcher-5.on,.card.matcher-5.done { background-position: 0 -1075px; }
+.card.matcher-6.on,.card.matcher-6.done { background-position: 0 -1292px; }
+.card.matcher-7.on,.card.matcher-7.done { background-position: 0 -1513px; }
+.card.matcher-8.on,.card.matcher-8.done { background-position: 0 -1733px; }
+.card.matcher-9.on,.card.matcher-9.done { background-position: 0 -1951px; }
+.card.matcher-10.on,.card.matcher-10.done { background-position: 0 -2169px; }
+.card.matcher-11.on,.card.matcher-11.done { background-position: 0 -2390px; }
+.card.matcher-12.on,.card.matcher-12.done { background-position: 0 -2611px; }
+.card.matcher-13.on,.card.matcher-13.done { background-position: 0 -2833px; }
+.card.matcher-14.on,.card.matcher-14.done { background-position: 0 -3052px; }
+.card.matcher-15.on,.card.matcher-15.done { background-position: 0 -3273px; }
+/* END MEMORY GAME CSS */
+
